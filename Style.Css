@@ -1,0 +1,52 @@
+
+*, *:before, *:after 
+{ 
+  box-sizing: inherit; margin: 0; padding: 0; */
+}
+body
+{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between;
+
+
+
+}
+.entete{
+	display: flex;
+	justify-content: flex-end;
+	align-content:flex-end;
+}
+.google
+{display: flex;
+	flex-direction: column;
+	max-width:1500px ;
+	align-items: center;
+}
+.boutons
+{display: flex;
+}
+
+footer
+{display: flex;
+	flex-direction: row;
+}
+.basdepage
+{display: flex;
+	flex-direction: column;
+}
+.toutenbas
+{display:inline-flex;
+	flex-wrap: center;
+}
+.france
+{ background-color:grey ;
+ }
+
+}
+h1
+{
+	border: 1px solid;
+	border-radius: 10px;
+}
